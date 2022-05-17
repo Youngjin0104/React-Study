@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hello3 {
+  background-color: rgb(199, 219, 42);
+  color: aliceblue;
+  padding: 100px 20px;
+}
