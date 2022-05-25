@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import { Route, Link } from 'react-router-dom';
+// yarn add react-router-dom@5
+// 특정 주소에 컴포넌트 연결하는 방법
 import MainCom from './main';
 import About from './about/about';
 import Product from './product/product';
@@ -26,12 +28,12 @@ function App() {
         </div>
       </div>
 
-      <div style={{width:'100%', height:'auto', background:'#ccc'}}>
-        <Route path="/" exact={true} component={MainCom}/>
-        <Route path="/about" component={About}/>
-        <Route path="/product" component={Product}/>
-        <Route path="/community" component={Community}/>
-        <Route path="/recruit" component={Recruit}/>
+      <div style={{ width: '100%', height: 'auto', background: '#ccc' }}>
+        <Route path="/" exact={true} component={MainCom} />
+        <Route path="/about" component={About} />
+        <Route path="/product" component={Product} />
+        <Route path="/community" component={Community} />
+        <Route path="/recruit" component={Recruit} />
       </div>
     </div>
   );
